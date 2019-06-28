@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx babel --watch src --out-dir . --presets react-app/prod ",
-    "heroku-prebuild": "npm install -babel-cli@6 babel-preset-react-app@3 && npx babel --watch src --out-dir . --presets react-app/prod"
+    "heroku-postbuild":" npx babel --watch src --out-dir . --presets react-app/prod"
   },
   "keywords": [],
   "author": "",
